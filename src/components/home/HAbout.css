@@ -1,0 +1,16 @@
+.pie-image{
+    height: 700px;
+    width: 700px;
+
+}
+
+@media (max-width: 750px) {
+    .pie-image {
+        width: 70%;
+        height: 70%;
+        /* You can add other styling properties as needed */
+    }
+}
+
+
+

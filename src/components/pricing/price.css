@@ -1,0 +1,170 @@
+
+.price{
+  display: flex;
+  justify-content: center;
+}
+.price-button{
+ 
+    /* margin: 0;
+    box-shadow: none; */
+    border: 2px solid rgba(143, 109, 205, 0.702);
+    /* width: 25%;  */
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    /* min-width: 130px; */
+    /* max-height: 3px;  */
+    transition: 0.5s;
+    color: #00fbf4;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: auto;
+    
+  }
+ 
+  .price-button:hover {
+    background-color:rgba(143, 109, 205, 0.702);
+    color:#00fbf4;
+  }
+
+  @media (max-width: 512px) {
+    .price-button >span{
+      justify-items: center;
+      font-size: 14px;
+      align-items: center;
+      text-align: center;
+      
+
+    }
+    .price-button{
+      padding: auto;
+    }
+   }
+.price .items {
+  padding: 40px;
+  width:80%;
+  text-align: center;
+  background-color: black;
+
+}
+
+.price h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #ffffff;
+}
+.price h1 span {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #000;
+}
+.price p {
+  color: white;
+  margin: 40px 0;
+  text-align: justify;
+  font-size: 25px;
+  font-family: "Robot";
+}
+/* --------------------------------------------------- */
+.price1{
+  display: flex;
+  justify-content: center;
+}
+
+.price1 .items {
+  padding: 40px;
+  width:40%;
+  text-align: center;
+  background-color: black;
+
+}
+.price1 h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #ffffff;
+}
+.price1 h1 span {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #000;
+}
+.price1 p {
+  color: grey;
+  margin: 40px 0;
+  text-align: justify;
+  font-size: 25px;
+}
+/*--------------faq-------------*/
+.faq .container {
+  max-width: 70%;
+  border-radius: 5px;
+}
+.faq .box {
+  background-color: #000000;
+  margin-bottom: 20px;
+}
+.faq button {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 20px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(143, 109, 205, 0.702);
+  animation: borderLight 2s infinite;
+}
+
+.faq h2 {
+  font-weight: 500;
+}
+.faq p {
+  padding: 20px;
+}
+.faq .accordion:hover {
+  background-color: rgba(143, 109, 205, 0.702)#cd3d3a;
+  color: #fff;
+}
+@media (max-width: 512px) {
+ .price p {
+    font-size: 20px;
+  }
+  .faq h2{
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .price p {
+     font-size: 15px;
+   }
+   .faq h2{
+    font-weight: 300;
+    font-size: 15px;
+  }
+ }
+
+ @media (max-width: 276px) {
+  .price p {
+     font-size: 12px;
+   }
+   .faq h2{
+    font-weight: 200;
+    font-size: 10px;
+  }
+ }
+
+ @media (max-width: 512px) {
+  .price-button {
+    /* width: 80px; */
+    font-size: 14px;
+    border-radius: 5px;
+    margin:auto !important;
+   }
+ }
+
+/*--------------faq-------------*/

@@ -1,0 +1,310 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  
+  
+}
+
+/* Center content vertically and horizontally */
+.debit {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  margin-left: 1%;
+  /* gap: 20px; */
+  padding-top: 50px;
+  
+  
+}
+
+/* Card */
+.card {
+  width: 90%; /* Adjust the width for responsiveness */
+  max-width: 800px; /* Set a maximum width for larger screens */
+  margin: 0 auto;
+  /* border: 1px solid rgba(0, 0, 0, 0.2); */
+  /* background: linear-gradient(
+    90deg,
+   
+  ); */
+  
+  background: transparent, white;
+    border: 1px solid #029ba2;
+    box-shadow:  0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe4a, 0 0 0.8rem #bc13fe00, 0 0 2.8rem #bc13fe78, inset 0 0 1.3rem #bc13fe73;;
+    border-radius: 15px;
+  /* padding: 20px; */
+  box-sizing: border-box;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  position: relative;
+  transition: 0.5s;
+}
+
+/* Timer box */
+.timer-box {
+  display: flex;
+  /* flex-direction: column; */
+
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: "Roboto !important";
+  font-size: 12px;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+
+ 
+}
+
+/* Timer values */
+.day,
+.hour,
+.min,
+.sec {
+  /* background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(52, 140, 194) 25%,
+    rgb(0, 0, 0) 100%
+  ); */
+  
+ background-color: #035164; 
+ margin-top: 4px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 200;
+  padding: 4px;
+  
+  width: 20%;
+  height: 80%;
+  min-width: 88px !important;
+  min-height: 25px !important;
+
+  
+}
+
+/* @media(max-width: 425px){
+  .day,
+.hour,
+.min,
+.sec {
+  font-size: 10px;
+}
+}
+
+@media(max-width: 270px){
+  .day,
+.hour,
+.min,
+.sec {
+  font-size: 5px;
+}
+} */
+
+
+
+
+/* Line separator */
+.line {
+  align-items: center;
+  background: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  height: 25px;
+  justify-content: flex-start;
+  margin: 15px 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Colored line */
+.line-color {
+  /* background: linear-gradient(
+    90deg,
+    rgb(147, 77, 239) 0%,
+    rgba(0, 232, 255, 1) 25%,
+    rgba(177, 117, 255, 1) 50%,
+    rgba(0, 37, 173, 1) 79%,
+    rgba(177, 117, 255, 1) 100%
+  ); */
+
+  background-color: #408391c9;
+  height: 100%;
+  width: 45%;
+}
+
+/* USDT raised text */
+.USDT-raised {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-top: 2em;
+  text-align: center;
+  color: #c9d2d7;
+}
+
+/* ETH Balance and listing price text */
+.sidess {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+/* ETH and USDT boxes */
+.ETH-USDT-box {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+  padding: 10px 0 15px;
+}
+
+/* Item box */
+.itemm {
+  background:#035164;
+  border-radius: 6px;
+  justify-content: center;
+  padding: 2px 15px 2px 8px;
+  width: 90px;
+}
+
+/* Item image and text */
+.item-img {
+  height: 50px;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+/* Item head text */
+.item-head {
+  font-family: Courier New, Courier, monospace;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Input fields */
+input {
+  width: 90%;
+  padding: 15px; /* Increase padding to adjust the height */
+  margin-bottom: 10px;
+  margin-left: 9px;
+  border-radius: 12px;
+  color: rgb(21, 51, 157);
+  
+}
+.side-input {
+
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  
+
+}
+
+/* Buy Now button */
+.buynow-button {
+  border-radius: 15px;
+  width: 50%; /* Set the button width to a percentage */
+  max-width: 300px; /* Set a maximum width for larger screens */
+  align-self: center; /* Center vertically within its container */
+  /* background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 232, 255, 1) 25%,
+    rgb(0, 0, 0) 100%
+  ); */
+  
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 25%;
+
+background: rgba(44, 104, 136, 0.785);
+justify-content: center;
+ 
+}
+.sidess{
+  color: white;
+  font-size: 16px;
+  padding-left: 12px;
+}
+.kk{
+  padding-right: 12px;
+}
+
+b{
+  
+  margin-left: 12px;
+  color: white;
+  font-size: 14px;
+}
+/* ETH-USDT balance text */
+.ETH-USDT-balance {
+  color: #c9d2d7;
+  font-family: Work Sans;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  width: 80%;
+}
+
+.item-head{
+  color: white;
+}
+
+
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+    justify-items: center;
+    justify-content: center;
+  }
+  b{
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 380px){
+  b{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 325px) {
+  .kk {
+   font-size: 10px;
+  }
+  .sidess{
+    font-size: 10px;
+  }
+  b{
+    font-size: 8px;
+  }
+}
+
+@media(max-width: 275px){
+  b{
+    font-size: 6px;
+  }
+}
+
+
+
+
+
